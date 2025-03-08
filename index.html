@@ -3,71 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Photoblog</title>
 </head>
 <body>
     <header class="header">
-        <nav class="header_navigation">
-            <ul class="header_list">
-                <li class="header_item">
-                    <a class="header_link" href="">LIFESTYLE</a>
-                </li>
-                <li class="header_item">
-                    <a class="header_link" href="">PHOTODTARY</a>
-                </li>
-                <li class="header_item">
-                    <a class="header_link" href="">MUSIK</a>
-                </li>
-                <li class="header_item">
-                    <a class="header_link" href="">TRAVEL</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="header-navigation">
+                <ul class="header-list">
+                    <li class="header-item">
+                        <a class="header-link" href="">LIFESTYLE</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link" href="">PHOTODTARY</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link" href="">MUSIK</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link" href="">TRAVEL</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="main">
         <section class="hero">
-            <article class="fotoblog">
-                <img class="fotoblog_image" src="./images/girl_on_stage.png" alt="">
-                <p class="fotoblog_subtitle">LIFESTYLE</p>
-                <h2 class="fotoblog_title">More than just a music festival</h2>
-                <p class="fotoblog_desc">Lorem ipsum dolor sit amet.</p>
-            </article>
-            <article class="fotoblog">
-                <img class="fotoblog_image" src="./images/girl_on_road.png" alt="">
-                <p class="fotoblog_subtitle">LIFESTYLE</p>
-                <h2 class="fotoblog_title">Life tastes better with coffee</h2>
-                <p class="fotoblog_desc">Lorem ipsum dolor sit amet.</p>
-            </article>
-            <article class="fotoblog">
-                <img class="fotoblog_image" src="./images/tea.png" alt="">
-                <p class="fotoblog_subtitle">LIFESTYLE</p>
-                <h2 class="fotoblog_title">American dream</h2>
-                <p class="fotoblog_desc">Lorem ipsum dolor sit amet.</p>
-            </article>
-            <article class="fotoblog">
-                <img class="fotoblog_image" src="./images/road.png" alt="">
-                <p class="fotoblog_subtitle">LIFESTYLE</p>
-                <h2 class="fotoblog_title">A day exploring the Alps</h2>
-                <p class="fotoblog_desc">Lorem ipsum dolor sit amet.</p>
-            </article>
-            <article class="fotoblog">
-                <img class="fotoblog_image" src="./images/songs.png" alt="">
-                <p class="fotoblog_subtitle">LIFESTYLE</p>
-                <h2 class="fotoblog_title">Top 10 song for running</h2>
-                <p class="fotoblog_desc">Lorem ipsum dolor sit amet.</p>
-            </article>
-            <artcle class="fotoblog">
-                <img class="fotoblog_image" src="./images/winter_day.png" alt="">
-                <p class="fotoblog_subtitle">LIFESTYLE</p>
-                <h2 class="fotoblog_title">Cold winter days</h2>
-                <p class="fotoblog_desc">Lorem ipsum dolor sit amet.</p>
-            </article>
-            <button class="hero_button" type="button">
-                Load more
-            </button>   
+            <div class="container">
+                <ul class="hero-list">
+                    <li >      
+                        <article class="fotoblog">
+                            <img class="fotoblog_image" src="./images/girl_on_stage.png" alt="">
+                            <p class="fotoblog_subtitle">LIFESTYLE</p>
+                            <h2 class="fotoblog_title">More than just a music festival</h2>
+                            <p class="fotoblog_desc">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Asperiores illo laborum obcaecati minus possimus
+                                nulla cum placeat ipsum neque labore?</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="fotoblog">
+                            <img class="fotoblog_image" src="./images/girl_on_road.png" alt="">
+                            <p class="fotoblog_subtitle">LIFESTYLE</p>
+                            <h2 class="fotoblog_title">Life tastes better with coffee</h2>
+                            <p class="fotoblog_desc">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Asperiores illo laborum obcaecati minus possimus
+                                nulla cum placeat ipsum neque labore?</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="fotoblog">
+                            <img class="fotoblog_image" src="./images/tea.png" alt="">
+                            <p class="fotoblog_subtitle">LIFESTYLE</p>
+                            <h2 class="fotoblog_title">American dream</h2>
+                            <p class="fotoblog_desc">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Asperiores illo laborum obcaecati minus possimus
+                                nulla cum placeat ipsum neque labore?</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="fotoblog">
+                            <img class="fotoblog_image" src="./images/road.png" alt="">
+                            <p class="fotoblog_subtitle">LIFESTYLE</p>
+                            <h2 class="fotoblog_title">A day exploring the Alps</h2>
+                            <p class="fotoblog_desc">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Asperiores illo laborum obcaecati minus possimus
+                                nulla cum placeat ipsum neque labore?</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="fotoblog">
+                            <img class="fotoblog_image" src="./images/songs.png" alt="">
+                            <p class="fotoblog_subtitle">LIFESTYLE</p>
+                            <h2 class="fotoblog_title">Top 10 song for running</h2>
+                            <p class="fotoblog_desc">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Asperiores illo laborum obcaecati minus possimus
+                                nulla cum placeat ipsum neque labore?</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="fotoblog">
+                            <img class="fotoblog_image" src="./images/winter_day.png" alt="">
+                            <p class="fotoblog_subtitle">LIFESTYLE</p>
+                            <h2 class="fotoblog_title">Cold winter days</h2>
+                            <p class="fotoblog_desc">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Asperiores illo laborum obcaecati minus possimus
+                                nulla cum placeat ipsum neque labore?</p>
+                        </article>
+                    </li>
+                </ul>
+                <button class="hero_button" type="button">
+                    Load more
+                </button> 
+            </div>  
         </section>
     </main>
     <footer>
+
     </footer>
 </body>
 </html>
