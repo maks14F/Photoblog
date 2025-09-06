@@ -1,0 +1,59 @@
+.hero {
+    padding-bottom: 66px;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 130px;
+        column-gap: 65px;
+        padding-bottom: 90px;        
+    }
+
+    &__item {
+        width: 420px;
+    }
+
+    &__button {
+        color: $title-color;
+        padding: 20px 48px;
+        background-color: $background;
+        border: 1px solid $title-color;
+        display: block;
+        margin: auto;    
+    }
+}
+
+
+
+
+.fotoblog {
+    flex-basis: calc((100% - 65px) / 2);
+
+
+    &__subtitle {
+        color: $text-color;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding-top: 62px;
+        padding-bottom: 32px;
+        font-weight: 300;
+        font-size: 14px;
+        font-family: $text-font;
+    }
+
+    &__title {
+        font-size: 30px;
+        color: $title-color;
+        padding-bottom: 40px;
+        font-family: $body-font;
+    }
+
+    &__desc {
+        color: $title-color;
+        font-family: $body-font;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        text-align: left;
+    }
+}

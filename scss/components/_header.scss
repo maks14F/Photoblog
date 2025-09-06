@@ -1,0 +1,19 @@
+.header {
+    padding-top: 71px;
+    padding-bottom: 92px;
+
+    &__list {
+        display: flex;
+        gap: 100px;
+        justify-content: center;        
+    }
+
+    &__link {
+        text-transform: uppercase;
+        color: $nav-color;
+        text-decoration: none;
+        &:hover {
+            color: $accent;
+        }
+    }
+}
