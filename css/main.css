@@ -179,40 +179,33 @@ body {
   padding-bottom: 90px;
 }
 .hero__item {
-  width: 420px;
+  flex-basis: calc((100% - 65px) / 2);
 }
 .hero__button {
   color: #626262;
   padding: 20px 48px;
-  background-color: #F5F5F5;
+  background-color: #FFFFFF;
   border: 1px solid #626262;
   display: block;
   margin: auto;
+  font-family: "Playfair Display", sans-serif;
 }
 
-.fotoblog {
-  flex-basis: calc((100% - 65px) / 2);
-}
 .fotoblog__subtitle {
   color: #B4AD9E;
-  font-size: 14px;
   text-transform: uppercase;
   padding-top: 62px;
   padding-bottom: 32px;
   font-weight: 300;
-  font-size: 14px;
   font-family: "Ubuntu", sans-serif;
 }
 .fotoblog__title {
   font-size: 30px;
   color: #626262;
   padding-bottom: 40px;
-  font-family: "Playfair Display", sans-serif;
 }
 .fotoblog__desc {
   color: #626262;
-  font-family: "Playfair Display", sans-serif;
-  font-size: 14px;
   font-weight: 400;
   line-height: 100%;
   text-align: left;
