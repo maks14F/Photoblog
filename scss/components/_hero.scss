@@ -10,7 +10,7 @@
     }
 
     &__item {
-        flex-basis: calc((100% - 65px) / 2);
+        flex-basis: calc((100% - 70px) / 2);
     }
 
     &__button {
@@ -49,5 +49,6 @@
         font-weight: 400;
         line-height: 100%;
         text-align: left;
+        line-height: 19px;
     }
 }
